@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+    <HEAD>
+        <TITLE>Anonymous text interrupted by a block</TITLE>
+        <style>
+            p{
+                display:inline;
+            }
+            span{
+                display:block;
+            }
+            p{
+                border:1px solid #f00;
+            }
+            div{
+                display:inline;
+                border:1px solid #0f0;
+            }
+        </style>
+    </HEAD>
+    <BODY>
+        <div>
+            before ancnetor span
+            <P>
+                This is anonymous text before the SPAN.
+                <SPAN>This is the content of SPAN.</SPAN>
+                This is anonymous text after the SPAN.
+            </P>
+            after ancentor span
+        </div>
+    </BODY>
+</html>
